@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons8-a-cute-48.png" type="image/x-icon">
+    <title>General form</title>
+</head>
+<header>
+    <img src="https://r72.cooltext.com/rendered/cooltext442877342770241.png" height = "100">
+</header>
+<hr>
+<main>
+    <!-- <table>
+<thead>
+      <caption> Student Data</caption>
+        <tr>
+            <th colspan="2">
+                INFORMATON
+            </th>
+          
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                Anas
+            </td>
+            <td>
+                12871
+            </td>
+        </tr>
+        <tr>
+            <td>
+                lovish
+            </td>
+            <td>
+                14554
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mohit
+            </td>
+            <td>
+                15871
+            </td>
+        </tr>
+        <tr>
+            <td>
+                jassar
+            </td>
+            <td>
+               1443
+            </td>
+        </tr>
+    </tbody>
+    </table> -->
+<form action = "/action.php">
+    <h3>Type UID</h3>
+    <input type = "text" placeholder="type UID">
+    <br>
+    <h3>Password</h3>
+    <input type = "password" placeholder="passsword">
+    <h3>choose Branch</h3>
+    <label for = "1">
+    <input type = "radio" value="Engineering" name="branch" id = "1">Engineering
+    </label>
+    <label for = "2">
+    <input type = "radio" value="Non Engineering" name="branch"id = "2">Non Engineering
+    </label><br>
+
+    <label for = "math">
+    <h3>Tick Favourite Subjects</h3>
+    <input type="checkbox" value = "math" name = "subject" id = "id1">Math<br>
+    <input type="checkbox" value = "math" name = "subject" id = "id1">English<br>
+    <input type="checkbox" value = "math" name = "subject" id = "id1">Physics<br>
+    <input type="checkbox" value = "math" name = "subject" id = "id1">Chemistry<br>
+    
+    </label>
+</form>
+</main>
+
+
+<body>
+    
+</body>
+</html>
