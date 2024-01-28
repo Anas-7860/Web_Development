@@ -1,0 +1,140 @@
+*{
+  margin:0px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+   }
+   .hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100% ;
+    width: 100%;
+    background-image: url("beautiful-color-gradation-abstract-black-gray-tones-charcoal-wallpaper-free-photo.jpg");
+    background-size: cover;
+   }
+   
+   .calc-body {
+    width: 17rem;
+    height: 26.7rem;
+    background-color: lightblue;
+    background-image: url("HD-wallpaper-dark-sexy-dark.jpg");
+    background-size: cover;
+    align-items: center;
+    border-radius: 20px;
+     border-style: solid ;
+     z-index: 1;
+     margin-left:0.9rem ;
+     margin-top: 1rem;
+   }
+   .keypad{
+    display: flex;
+    align-items:center;
+   }
+   .row{
+    display: flex;
+   }
+   .but{
+    height: 3rem;
+    width: 3rem;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: larger;
+     font-size: xx-large;
+   }
+   .INPUT{
+    display: flex;
+    justify-content: center;
+   }
+   .text-field{
+    margin-top: 1rem;
+    height: 2.5rem;
+    width: 90%;
+    border-radius:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    border: solid black;
+   }
+  .reset{
+    width: 5rem;
+    height: 3rem;
+    margin-top:20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  } 
+  .clear{
+    width: 9rem;
+    height: 3rem;
+    margin-top:20px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    background-color: rgb(240, 240, 20);
+    border-radius: 20px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #eq{
+    background-color: rgb(21, 219, 21);
+    color: white;
+    font-size: xx-large;
+  }
+  .op{
+    background-color: orange;
+    color: white;
+    font-weight:700;
+    font-size: xx-large;
+  }
+ .block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 26.7rem;
+    width: 17rem;
+    background: linear-gradient(45deg,yellow,orange,red,blue,green,pink);
+    border-radius: 20px;
+  }
+  .glow::before, .glow::after{
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg,yellow,orange,red,blue,green,pink);
+    background-size: 400%;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    border-radius: inherit;
+    
+    animation: animate 20s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+      background-position: 0 0;
+    }
+    50%{
+      background-position: 400% 0;
+
+    }
+    100%{
+      background-position: 0 0;
+    }
+  }
+  .glow::after{
+    filter: blur(30px);
+  }
+  
+  /* hover effect */
+
