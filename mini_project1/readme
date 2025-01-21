@@ -1,0 +1,35 @@
+## basic flow of the project
+
+initialize the project with - npm init -y
+
+install expressjs - npm i express
+
+we did set the entry point of the project at 'index.js' so make a file with same name
+
+store express modeule in a const so as to use that in the future and also store express() func in a constant 'app' to use all the functionalities of express through app.
+
+set up parsers for encoding and decoding
+
+setup routes
+
+set the port on which the the browser is going to show the frontend
+
+##  setting up frontend through backend using [ejs]
+
+install module ejs - npm i ejs
+
+then configure the express to use ejs to use views directory as the tempelate engine for the frontend work - app.set('view engine','ejs'); im index.js
+
+make a directory views - the name should be correct
+
+then make any ejs file in it 
+
+after this we can use render instead of send in - res.send('something'); as res.render('something(this is a ejs file we doesnt have to write naming extensions)');
+
+## setting up public static file - eg: images and css
+
+now we are importing path module to join the path of the current directory to the publuc directory
+
+and we are telling that if there is a request of a static file like images or videos or css then see through public directory - app.use(express.static(path.join(__dirname,'public')));
+
+# rest all are incuded in the comments of the code
